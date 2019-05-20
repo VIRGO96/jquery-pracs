@@ -1,0 +1,57 @@
+<html>
+
+
+<head> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<script>
+$(document).ready( function (){
+
+
+         
+    $('#ides').click(function() {
+	    $("p").hide();
+	});
+
+    $('#waq').click( function(){
+	         $(".kubi").hide();
+	
+	});
+	
+	$("p:not(.kubi)").css("color","blue");
+	
+	
+	    $('#chngs').click(function() {
+	    $("p").hide();
+	});
+	
+	
+});
+
+
+
+ 
+</script>
+
+
+  </head>
+
+<body>
+
+
+<p class="kubi">BY TAG</p>
+<p class="kubi">BY TAG</p>
+<p class="roms">BY TAG</p>
+
+<button id="ides">Click me to hide paragraphs using ID</button>
+
+<button id="waq">Hide paragraphs using class</button>
+
+<button id="chngs">Color changer </button>
+
+
+</body>
+
+
+</html>
